@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Full blog section */
+.blog{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.bg-dark{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.675);
+}
+
+/* Blog left side */
+.blog-titles{
+    background-color: rgba(0, 0, 0, 0.668);
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+}
+
+.names{
+    margin-left: 105px;
+
+}
+
+.names>h4{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 18px;
+
+}
+
+.names>p{
+    color: white;
+}
+
+.divider{
+    background-color: rgba(255, 255, 255, 0.503);
+    height: 0.07px;
+    width: 250px;
+}
+
+.title-btns{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.title-btns>button{
+    padding: 15px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+
+}
+
+.title-btns>button:hover{
+    color: rgb(221, 180, 76);
+    cursor: pointer;
+}
+
+.title-btns>button:nth-child(1){
+    color: rgb(221, 180, 76);
+}
+
+/* blog right side */
+.content{
+    margin: 10px 100px 15px 40px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+}
+
+.para{
+    background-color: white;
+}
+
+.para>p{
+    margin: 20px;
+}
+
+.para>p:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.para>p:nth-child(2){
+    color: rgb(30, 180, 180);
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.para>p:nth-child(3){
+    color: rgba(0, 0, 0, 0.505);
+    font-weight: 450;
+}
